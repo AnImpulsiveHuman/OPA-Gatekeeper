@@ -1,7 +1,7 @@
 apiVersion: constraints.gatekeeper.sh/v1beta1
-kind: K8sBlockLatestTag
+kind: K8sPSPHostNamespace
 metadata:
-  name: block-latest-tag
+  name: psp-host-namespace
 spec:
   match:
     kinds:

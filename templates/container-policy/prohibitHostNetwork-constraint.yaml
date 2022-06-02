@@ -1,7 +1,7 @@
 apiVersion: constraints.gatekeeper.sh/v1beta1
-kind: K8sBlockLatestTag
+kind: K8sBlockHostNetwork
 metadata:
-  name: block-latest-tag
+  name: block-host-network
 spec:
   match:
     kinds:
